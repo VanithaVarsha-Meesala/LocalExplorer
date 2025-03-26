@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Local Explorer</h1>
+        <p>Find nearby places, travel time, and the best time to visit!</p>
+        <button onclick="getUserLocation()">Find Nearby Places</button>
+
+        <div id="map"></div>
+        <label for="transport-mode">Select Transport Mode:</label>
+        <select id="transport-mode">
+            <option value="DRIVING">Driving</option>
+            <option value="WALKING">Walking</option>
+            <option value="BICYCLING">Cycling</option>
+            <option value="TRANSIT">Public Transport</option>
+        </select>
+
+        <div id="info"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places,directions"></script>
+</body>
+</html>

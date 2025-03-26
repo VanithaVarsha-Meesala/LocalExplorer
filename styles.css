@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('assets/travel-background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    padding: 20px;
+}
+
+#map {
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff9800;
+    color: white;
+    border-radius: 5px;
+}
+
+select {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#info {
+    margin-top: 20px;
+    font-size: 18px;
+    color: yellow;
+}
